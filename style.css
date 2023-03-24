@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none ;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.head h2{
+    margin-top: 1.6rem;
+    margin-left: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    color:mintcream;
+}
+
+.head ul{
+    list-style: none;
+    font-size: 1.8rem ;
+    margin-right: 1rem;
+    margin-top: 0.6rem;
+    display: flex;
+    gap:1.5rem;
+}
+
+ul li a{
+    color:#de5d83;
+    background-color: transparent;
+    padding :0.3rem 0.7rem;
+}
+
+ul li a:hover{
+    border: 1px solid #de5d83 ;
+    border-radius: 4px;
+    background-color:#de5d83;
+    color: whitesmoke;
+    transition: .3s ease;
+    letter-spacing: 0.2rem;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero{
+    background-image: url(./room.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+
+
+/* #hero{
+    background: linear-gradient(120deg, #6f189e,#fffff0);
+} */
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+}
+
+.container h2{
+    color:bisque;
+    font-size: 4rem;
+}
+
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: bisque;
+    background-color: transparent;
+    border: 2px solid bisque;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: .3s ease;
+}
+#hero .cta:hover{
+    color: white;
+    background-color: #de5d83;
+    border: #de5d83;
+}
+
+.sec{
+    background:radial-gradient(bisque 45%,#f986a8);
+    height: 750px;
+}
+
+
+
+#portfolio{
+    
+    /* background-size: cover;
+    background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25vh;
+    /* margin-top: 32vh;
+    margin-bottom:32vh ; */
+    gap: 25px;
+    
+}
+
+img{
+    width: 250px;
+    height: auto;
+    background-color: transparent;
+}
+
+.first{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    transform: scale(1);
+}
+
+.second img{
+    padding-bottom: 3rem;
+}
+
+.third img{
+    padding-top: 0.3rem;
+    padding-bottom: 1.2rem;
+}
+
+.second{
+    border: 1px solid black;
+    padding-top: 74px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.third{
+    border: 1px solid black;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.first,.second,.third h3{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+p{
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+}
+
+.first:hover{
+    background-color: black;
+    color: #de5d83;
+    transform: scale(1.3);
+    transition: 1s ease;
+}
+
+
+
+.second:hover{
+    background-color: black;
+    color: #de5d83;
+    transform:scale(1.3);
+    transition: 1s ease;
+}
+
+.third:hover{
+    background-color: black;
+    color: #de5d83;
+    transform: scale(1.3);
+    transition: 1s ease;
+}
+
+.btn{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 15vh;
+}
+
+.btn a{
+    border: 1px solid whitesmoke;
+    padding: 2px 6px 2px 6px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: #de5d83;
+}
+
+.btn a:hover{
+    border: 1px solid #de5d83;
+    background-color: #de5d83;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+#contact{
+    height: 750px;
+    box-sizing: border-box;
+    background:radial-gradient(bisque,#f986a8);
+}
+
+.mail{
+    font-size: 2rem;
+    padding-top: 35vh;
+    padding-left: 40vw;
+
+}
+
+label{
+    font-weight:bold;
+    margin: 5px;
+    margin: 1rem;
+}
+
+.phone{
+    font-size: 2rem;
+    padding-left: 40vw;
+    margin-top: 1rem;
+}
+
+.mail a{
+    color: black;
+}
+
+.phone a{
+    color: black;
+}
+
+.mail a:hover{
+text-decoration:underline;
+color: blue;
+
+}
+
+.phone a:hover{
+    text-decoration: underline;
+    color: blue;
+}
